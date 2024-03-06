@@ -1,5 +1,5 @@
 .header{
-    background-color: #21201E;
+    background-color: #EBBBB0;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -36,8 +36,8 @@
 
 .menu a:hover{
     text-decoration: underline;
-    text-decoration-color: orangered;
-    color: orangered;
+    text-decoration-color: #E98980;
+    color: #E98980;
 }
 
 /*container for the hamburger menu*/
@@ -119,8 +119,8 @@
     }
     .menu a:hover{
         text-decoration: underline;
-        text-decoration-color: orangered;
-        color: orangered;
+        text-decoration-color: #E98980;
+        color: #E98980;
     }
     .hamb{
         display: none;
@@ -130,7 +130,7 @@
         justify-content: center;
         border: 2px solid black;
         border-radius: 10px;
-        box-shadow: 2px 4px orangered;
+        box-shadow: 2px 4px #E98980;
         color: #ffffff;
     }
 }
