@@ -3,6 +3,8 @@ import './App.css';
 import { Text } from './text';
 import Marquee from "react-fast-marquee";
 import { Data } from './data';
+import Popup from 'reactjs-popup';
+
 
 function App() {
   return (
@@ -154,6 +156,236 @@ function App() {
             </div>
           </div>
         </div>
+
+
+
+        {/* skills section */}
+        <div className='skills-container'>
+          <h2>MY SKILLS</h2>
+          <div className='skills-card'>
+            <img src='html.png' alt='html logo' />
+            <h4>HTML</h4>
+          </div>
+
+          <div className='skills-card'>
+            <img src='css-3.png' alt='css logo' />
+            <h4>CSS</h4>
+          </div>
+
+          <div className='skills-card'>
+            <img src='java-script.png' alt='javascript logo' />
+            <h4>JAVASCRIPT</h4>
+          </div>
+
+          <div className='skills-card'>
+            <img src='react.png' alt='react logo' />
+            <h4>REACT</h4>
+          </div>
+
+          <div className='skills-card'>
+            <img src='sass.png' alt='sass logo' />
+            <h4>SASS</h4>
+          </div>
+
+          <div className='skills-card'>
+            <img src='bootstrap.png' alt='bootstrap logo' />
+            <h4>BOOTSTRAP</h4>
+          </div>
+
+          <div className='skills-image'>
+            <img src='girl2.jpg' alt='a girl' />
+          </div>
+
+        </div>
+
+        <div className='statement-section'>
+          <p>Intrested in working with me?</p>
+          <button>
+          <a href="#contact">CONTACT</a>
+          </button>
+        </div>
+
+
+
+
+        {/* portfolio section */}
+        <div className='portfolio-section'>
+          <h2>MY PROJECTS</h2>
+
+        <div className="portfolio-card">
+          <div className='portfolio-image'>
+            <img alt=' of a girl'/>
+          </div>
+
+          <div className='portfolio-info'>
+            <h4 className='portfolio-title'>WEB DESIGN</h4>
+            <h5 className='portfolio-subtitle'>Website Design for Marketing Agency Startup</h5>
+            <p className='portfolio-desc'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores</p>
+            <Popup trigger={
+              <button className="popup-button">VIEW PROJECT</button>
+            }modal nested>
+              {
+                close =>(
+                  <div className='popup-box'>
+                    <div className='popup-header'>
+                    <h5 className='popup-subtitle'>Website Design for Marketing Agency Startup</h5>
+                    <button onClick={() => close()}>&times;</button>
+                    </div>
+
+                    <div className='popup-image'>
+                      <img alt='image example'/>
+                    </div>
+
+                    <div className='popup-content'>
+                      <p className='popup-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p><span className='bold'></span>Type: Website</p>
+                      <p><span className='bold'></span>Languages: HTML, CSS, JS</p>
+                      <p><span className='bold'></span>Platform: Wordpress</p>
+                      <p><span className='bold'></span>Country: USA</p>
+                      <p><span className='bold'></span>Live URL: www.example.com</p>
+                    </div>
+
+                  </div>
+                )
+              }
+            </Popup>
+          </div>
+
+          </div>
+
+          <div className="portfolio-card">
+
+          <div className='portfolio-info'>
+            <h4 className='portfolio-title'>WEB DESIGN</h4>
+            <h5 className='portfolio-subtitle'>Website Design for Marketing Agency Startup</h5>
+            <p className='portfolio-desc'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores</p>
+            <Popup trigger={
+              <button className="popup-button">VIEW PROJECT</button>
+            }modal nested>
+              {
+                close =>(
+                  <div className='popup-box'>
+                    <div className='popup-header'>
+                    <h5 className='popup-subtitle'>Website Design for Marketing Agency Startup</h5>
+                    <button onClick={() => close()}>&times;</button>
+                    </div>
+
+                    <div className='popup-image'>
+                      <img alt='image example'/>
+                    </div>
+
+                    <div className='popup-content'>
+                      <p className='popup-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p><span className='bold'></span>Type: Website</p>
+                      <p><span className='bold'></span>Languages: HTML, CSS, JS</p>
+                      <p><span className='bold'></span>Platform: Wordpress</p>
+                      <p><span className='bold'></span>Country: USA</p>
+                      <p><span className='bold'></span>Live URL: www.example.com</p>
+                    </div>
+
+                  </div>
+                )
+              }
+            </Popup>
+          </div>
+
+          <div className='portfolio-image'>
+            <img alt=' of a girl'/>
+          </div>
+
+          </div>
+
+          <div className="portfolio-card">
+
+          <div className='portfolio-image'>
+            <img alt=' of a girl'/>
+          </div>
+
+          <div className='portfolio-info'>
+            <h4 className='portfolio-title'>WEB DESIGN</h4>
+            <h5 className='portfolio-subtitle'>Website Design for Marketing Agency Startup</h5>
+            <p className='portfolio-desc'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores</p>
+            <Popup trigger={
+              <button className="popup-button">VIEW PROJECT</button>
+            }modal nested>
+              {
+                close =>(
+                  <div className='popup-box'>
+                    <div className='popup-header'>
+                    <h5 className='popup-subtitle'>Website Design for Marketing Agency Startup</h5>
+                    <button onClick={() => close()}>&times;</button>
+                    </div>
+
+                    <div className='popup-image'>
+                      <img alt='image example'/>
+                    </div>
+
+                    <div className='popup-content'>
+                      <p className='popup-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p><span className='bold'></span>Type: Website</p>
+                      <p><span className='bold'></span>Languages: HTML, CSS, JS</p>
+                      <p><span className='bold'></span>Platform: Wordpress</p>
+                      <p><span className='bold'></span>Country: USA</p>
+                      <p><span className='bold'></span>Live URL: www.example.com</p>
+                    </div>
+
+                  </div>
+                )
+              }
+            </Popup>
+          </div>
+
+          </div>
+        
+          <div className="portfolio-card">
+
+<div className='portfolio-image'>
+  <img alt=' of a girl'/>
+</div>
+
+<div className='portfolio-info'>
+  <h4 className='portfolio-title'>WEB DESIGN</h4>
+  <h5 className='portfolio-subtitle'>Website Design for Marketing Agency Startup</h5>
+  <p className='portfolio-desc'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores</p>
+  <Popup trigger={
+    <button className="popup-button">VIEW PROJECT</button>
+  }modal nested>
+    {
+      close =>(
+        <div className='popup-box'>
+          <div className='popup-header'>
+          <h5 className='popup-subtitle'>Website Design for Marketing Agency Startup</h5>
+          <button onClick={() => close()}>&times;</button>
+          </div>
+
+          <div className='popup-image'>
+            <img alt='image example'/>
+          </div>
+
+          <div className='popup-content'>
+            <p className='popup-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p><span className='bold'></span>Type: Website</p>
+            <p><span className='bold'></span>Languages: HTML, CSS, JS</p>
+            <p><span className='bold'></span>Platform: Wordpress</p>
+            <p><span className='bold'></span>Country: USA</p>
+            <p><span className='bold'></span>Live URL: www.example.com</p>
+          </div>
+
+        </div>
+      )
+    }
+  </Popup>
+</div>
+
+        </div>
+        
+        </div>
+
+
     </div>
   );
 }
