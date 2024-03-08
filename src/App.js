@@ -4,6 +4,8 @@ import { Text } from './text';
 import Marquee from "react-fast-marquee";
 import { Data } from './data';
 import Popup from 'reactjs-popup';
+import {Carousel} from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 function App() {
@@ -386,6 +388,114 @@ function App() {
         </div>
 
 
+
+
+
+{/* testimonial section */}
+          <div className='testimonial-section'>
+            <Carousel 
+                showArrows = {true}
+                infiniteLoop={true}
+                showThumbs={false}
+                showStatus={false}
+                autoPlay={true}
+                interval={6100}
+            >
+              <div className='carousel-card'>
+                <img alt='user-one'/>
+                <div className='carousel-content'>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <h3>Alexa Diaz</h3>
+                  <h4>CEO at Zillow</h4>
+                </div>
+              </div>
+
+              <div className='carousel-card'>
+                <img alt='user-two'/>
+                <div className='carousel-content'>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <h3>Ogie Richards</h3>
+                  <h4>CEO at Microsoft</h4>
+                </div>
+              </div>
+
+              <div className='carousel-card'>
+                <img alt='user-three'/>
+                <div className='carousel-content'>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <h3>Kathryn Aldens</h3>
+                  <h4>CEO at Amazon</h4>
+                </div>
+              </div>
+
+              <div className='carousel-card'>
+                <img alt='user-four'/>
+                <div className='carousel-content'>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <h3>Daniel Gumbao</h3>
+                  <h4>CEO at IBM</h4>
+                </div>
+              </div>
+
+            </Carousel>
+          </div>
+
+
+
+          {/* contact section */}
+          <div className='contact-section'>
+            <div className='contact-information'>
+              <div className='contact-form'>
+                <form>
+                  <h3>Get in touch</h3>
+                  <label htmlFor='name'>Name:</label>
+                  <input type='text' id='firstName' />
+                  <label htmlFor='email'>Email:</label>
+                  <input type='email' id='email' />
+                  <label htmlFor='subject'>Subject:</label>
+                  <input type='text' id='subject' />
+                  <label htmlFor='message'>Your message</label>
+                  <textarea></textarea>
+                  <button>SEND MESSAGE</button>
+                </form>
+              </div>
+
+              <div className='contact-location'>
+                <div className='location-info'>
+                  <img alt="phone" />
+                  <h3>PHONE</h3>
+                  <p>+ 254 7 10101010</p>
+                </div>
+
+                <div className='location-info'>
+                  <img alt="mail" />
+                  <h3>MAIL</h3>
+                  <p>info@reactfolio.com</p>
+                </div>
+
+                <div className='location-info'>
+                  <img alt="location" />
+                  <h3>VISIT MY STUDIO</h3>
+                  <p>KCB, Nairobi Kenya</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div className='contact-socials'>
+              <div className='social-images'>
+                <a><img alt="facebook" /></a>
+                <a><img alt="X" /></a>
+                <a><img alt="instagram" /></a>
+                <a><img alt="linkedin" /></a>
+                <a><img alt="pinterest" /></a>
+              </div>
+
+              <div className='reserved-info'>
+                <p>&copy; 2024 copyright all right resered by reactfolio</p>
+              </div>
+            </div>
+          </div>
     </div>
   );
 }
