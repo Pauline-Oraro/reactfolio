@@ -80,6 +80,7 @@ function App() {
             play={true}
             autoFill={false}
             direction='left'
+            
             >
               {Data.map((text) => (
                 <p className='company-text'>{text}</p>
@@ -97,6 +98,7 @@ function App() {
           <h3>I'm a Freelancer Front-end Developer with over 3 years of experience.</h3>
           <p>I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from Nairobi, Kenya. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
 
+        <div className="info-content">
           <div className='projects'>
             <p>500+</p>
             <span>Projects completed</span>
@@ -105,6 +107,8 @@ function App() {
             <p>200+</p>
             <span>Happy clients</span>
           </div>
+        </div>
+          
 
           <div className='info-buttons'>
             <button>
@@ -164,6 +168,7 @@ function App() {
         {/* skills section */}
         <div className='skills-container'>
           <h2>MY SKILLS</h2>
+          <div className="card-container">
           <div className='skills-card'>
             <img src='html.png' alt='html logo' />
             <h4>HTML</h4>
@@ -193,6 +198,8 @@ function App() {
             <img src='bootstrap.png' alt='bootstrap logo' />
             <h4>BOOTSTRAP</h4>
           </div>
+          </div>
+          
 
           <div className='skills-image'>
             <img src='girl2.jpg' alt='a girl' />
