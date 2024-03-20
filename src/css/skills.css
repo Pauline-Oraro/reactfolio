@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono:ital@1&display=swap');
 
 .skills-container{
     background-color: #ffffff;
@@ -55,9 +55,45 @@
     box-shadow: 6px 6px  #3B0404;
 }
 
+
+.statement-section{
+    background-color: black;
+    color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Roboto Slab, monospace;
+}
+
+.statement-section button{
+    background-color: #3B0404;
+    font-family: Roboto Mono, monospace;
+    font-size: 18px;
+
+    padding: 10px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    box-shadow: 2px -4px black;
+}
+
+.statement-section button a{
+    color: #ffffff;
+}
+
 @media only screen and (max-width: 800px){
     .skills-container{
         display: flex;
         flex-direction: column;
+    }
+    .statement-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .statement-section button{
+        width: 50%;
     }
 }
