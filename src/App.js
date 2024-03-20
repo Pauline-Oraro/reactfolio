@@ -223,7 +223,7 @@ function App() {
 
         <div className="portfolio-card">
           <div className='portfolio-image'>
-            <img alt=' of a girl'/>
+            <img src='portfolio-image.jpg' alt='picture of your project one'/>
           </div>
 
           <div className='portfolio-info'>
@@ -242,7 +242,7 @@ function App() {
                     </div>
 
                     <div className='popup-image'>
-                      <img alt='image example'/>
+                      <img src='portfolio-image.jpg' alt='picture of project one'/>
                     </div>
 
                     <div className='popup-content'>
@@ -281,7 +281,7 @@ function App() {
                     </div>
 
                     <div className='popup-image'>
-                      <img alt='image example'/>
+                      <img src='portfolio-image.jpg' alt='picture of project two'/>
                     </div>
 
                     <div className='popup-content'>
@@ -301,7 +301,7 @@ function App() {
           </div>
 
           <div className='portfolio-image'>
-            <img alt=' of a girl'/>
+            <img src='portfolio-image.jpg' alt='picture of your project two'/>
           </div>
 
           </div>
@@ -309,7 +309,7 @@ function App() {
           <div className="portfolio-card">
 
           <div className='portfolio-image'>
-            <img alt=' of a girl'/>
+            <img src='portfolio-image.jpg' alt='picture of your project three'/>
           </div>
 
           <div className='portfolio-info'>
@@ -328,7 +328,7 @@ function App() {
                     </div>
 
                     <div className='popup-image'>
-                      <img alt='image example'/>
+                      <img src='portfolio-image.jpg' alt='picture of project three'/>
                     </div>
 
                     <div className='popup-content'>
@@ -351,9 +351,7 @@ function App() {
         
           <div className="portfolio-card">
 
-<div className='portfolio-image'>
-  <img alt=' of a girl'/>
-</div>
+
 
 <div className='portfolio-info'>
   <h4 className='portfolio-title'>WEB DESIGN</h4>
@@ -371,7 +369,7 @@ function App() {
           </div>
 
           <div className='popup-image'>
-            <img alt='image example'/>
+            <img src='portfolio-image.jpg' alt='picture of project four'/>
           </div>
 
           <div className='popup-content'>
@@ -388,6 +386,10 @@ function App() {
       )
     }
   </Popup>
+</div>
+
+<div className='portfolio-image'>
+  <img src='portfolio-image.jpg' alt='picture of your project four'/>
 </div>
 
         </div>
