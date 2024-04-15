@@ -76,12 +76,60 @@
     box-shadow: 2px -4px black;
 }
 
-.popup-image img{
-    width: 30px;
-}
+
 
 .popup-box{
-
+    font-family: Roboto Slab;
 
     background-color:bisque;
+}
+
+.popup-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.popup-subtitle{
+    font-size: 15px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.popup-header button{
+    width: 50px;
+    height: 50px;
+    
+    font-family: Roboto Mono, monospace;
+    font-size: 18px;
+
+    padding: 10px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.popup-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.popup-image{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.popup-image img{
+    width: 80px;
+    border: 4px solid black;
+    border-radius: 10px;
+
+    box-shadow: 6px 6px  #3B0404;
 }
