@@ -83,7 +83,9 @@ function App() {
             
             >
               {Data.map((text) => (
-                <p className='company-text'>{text}</p>
+                <ul className='company-text'>
+                  <li>{text}</li>
+                </ul>
               ))}
             </Marquee>
       </div>
@@ -241,7 +243,8 @@ function App() {
                     <button onClick={() => close()}>&times;</button>
                     </div>
 
-                    <div className='popup-image'>
+                <div className='popup-info'>
+                <div className='popup-image'>
                       <img src='portfolio-image.jpg' alt='picture of project one'/>
                     </div>
 
@@ -254,6 +257,8 @@ function App() {
                       <p><span className='bold'></span>Country: USA</p>
                       <p><span className='bold'></span>Live URL: www.example.com</p>
                     </div>
+                </div>
+                    
 
                   </div>
                 )
@@ -411,7 +416,7 @@ function App() {
                 interval={6100}
             >
               <div className='carousel-card'>
-                <img alt='user-one'/>
+                <img src='user.png' alt='first user' style={{width: "30%"}}/>
                 <div className='carousel-content'>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   <h3>Alexa Diaz</h3>
@@ -420,7 +425,7 @@ function App() {
               </div>
 
               <div className='carousel-card'>
-                <img alt='user-two'/>
+                <img src='user.png' alt='second user' style={{width: "30%"}}/>
                 <div className='carousel-content'>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   <h3>Ogie Richards</h3>
@@ -429,7 +434,7 @@ function App() {
               </div>
 
               <div className='carousel-card'>
-                <img alt='user-three'/>
+                <img src='user.png' alt='third user' style={{width: "30%"}}/>
                 <div className='carousel-content'>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   <h3>Kathryn Aldens</h3>
@@ -438,7 +443,7 @@ function App() {
               </div>
 
               <div className='carousel-card'>
-                <img alt='user-four'/>
+                <img src='user.png' alt='fourth user' style={{width: "30%"}}/>
                 <div className='carousel-content'>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   <h3>Daniel Gumbao</h3>
@@ -471,40 +476,41 @@ function App() {
 
               <div className='contact-location'>
                 <div className='location-info'>
-                  <img alt="phone" />
+                  <img src="phone.png"alt="phone" />
                   <h3>PHONE</h3>
-                  <p>+ 254 7 10101010</p>
+                  <p>+ 254 710101010</p>
                 </div>
 
                 <div className='location-info'>
-                  <img alt="mail" />
+                  <img src='email.png' alt="mail" />
                   <h3>MAIL</h3>
                   <p>info@reactfolio.com</p>
                 </div>
 
                 <div className='location-info'>
-                  <img alt="location" />
+                  <img src='location.png' alt="location" />
                   <h3>VISIT MY STUDIO</h3>
                   <p>KCB, Nairobi Kenya</p>
                 </div>
               </div>
 
             </div>
-
             <div className='contact-socials'>
               <div className='social-images'>
-                <a><img alt="facebook" /></a>
-                <a><img alt="X" /></a>
-                <a><img alt="instagram" /></a>
-                <a><img alt="linkedin" /></a>
-                <a><img alt="pinterest" /></a>
+                <a><img src='facebook.svg' alt="facebook" /></a>
+                <a><img src='twitter.png' alt="X" /></a>
+                <a><img src='instagram.svg' alt="instagram" /></a>
+                <a><img src='linkedin.png' alt="linkedin" /></a>
+                <a><img src='pinterest.png' alt="pinterest" /></a>
               </div>
 
               <div className='reserved-info'>
                 <p>&copy; 2024 copyright all right resered by reactfolio</p>
               </div>
             </div>
+
           </div>
+          
     </div>
   );
 }
