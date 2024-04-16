@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
+
+
+
 .service-container{
     font-family: Roboto Slab, monospace;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .service-container h1{
