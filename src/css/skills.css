@@ -3,9 +3,7 @@
 
 .skills-container{
     background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+    
 
     width: 100%;
 
@@ -19,11 +17,14 @@
 }
 
 .card-container{
-    width: 50%;
-    margin: 20px auto;
+    padding: 15px;
+
+    
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 20px;
 }
 
 .skills-card{
@@ -31,7 +32,11 @@
     flex-direction: row;
     gap: 10px;
     
-    width: 30%;
+    width: 50%;
+    border: 2px solid black;
+    box-shadow: 6px 6px  #3B0404;
+    padding: 8px;
+    margin-bottom: 20px;
 }
 
 .skills-card img{
@@ -83,10 +88,13 @@
 }
 
 @media only screen and (max-width: 800px){
-    .skills-container{
+    .card-container{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+    
     .statement-section{
         display: flex;
         flex-direction: column;
