@@ -203,9 +203,7 @@ function App() {
           </div>
           
 
-          <div className='skills-image'>
-            <img src='girl2.jpg' alt='a girl' />
-          </div>
+          
 
         </div>
 
