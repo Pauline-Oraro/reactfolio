@@ -466,7 +466,7 @@ function App() {
                 <div className='location-info'>
                   <img src="phone.png"alt="phone" />
                   <h3>PHONE</h3>
-                  <p>+ 254 710101010</p>
+                  <p>+254 710101010</p>
                 </div>
 
                 <div className='location-info'>
@@ -484,16 +484,16 @@ function App() {
 
             </div>
             <div className='contact-socials'>
+              <div className='reserved-info'>
+                <p>&copy; 2024 copyright all right resered by reactfolio</p>
+              </div>
+
               <div className='social-images'>
                 <a><img src='facebook.svg' alt="facebook" /></a>
                 <a><img src='twitter.png' alt="X" /></a>
                 <a><img src='instagram.svg' alt="instagram" /></a>
                 <a><img src='linkedin.png' alt="linkedin" /></a>
                 <a><img src='pinterest.png' alt="pinterest" /></a>
-              </div>
-
-              <div className='reserved-info'>
-                <p>&copy; 2024 copyright all right resered by reactfolio</p>
               </div>
             </div>
 
