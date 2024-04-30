@@ -404,7 +404,7 @@ function App() {
                 interval={6100}
             >
               <div className='carousel-card'>
-                <img src='user.png' alt='first user'/>
+                <img src='user.png' alt='first user' style={{width: "100px"}}/>
                 <div className='carousel-content'>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   <h3>Alexa Diaz</h3>
@@ -413,7 +413,7 @@ function App() {
               </div>
 
               <div className='carousel-card'>
-                <img src='user.png' alt='second user' />
+                <img src='user.png' alt='second user' style={{width: "100px"}} />
                 <div className='carousel-content'>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   <h3>Ogie Richards</h3>
@@ -422,7 +422,7 @@ function App() {
               </div>
 
               <div className='carousel-card'>
-                <img src='user.png' alt='third user' />
+                <img src='user.png' alt='third user' style={{width: "100px"}} />
                 <div className='carousel-content'>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   <h3>Kathryn Aldens</h3>
@@ -431,7 +431,7 @@ function App() {
               </div>
 
               <div className='carousel-card'>
-                <img src='user.png' alt='fourth user' />
+                <img src='user.png' alt='fourth user' style={{width: "100px"}} />
                 <div className='carousel-content'>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   <h3>Daniel Gumbao</h3>
@@ -489,7 +489,7 @@ function App() {
               </div>
 
               <div className='social-images'>
-                <a><img src='facebook.svg' alt="facebook" /></a>
+                
                 <a><img src='twitter.png' alt="X" /></a>
                 <a><img src='instagram.svg' alt="instagram" /></a>
                 <a><img src='linkedin.png' alt="linkedin" /></a>

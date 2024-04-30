@@ -8,11 +8,24 @@
 }
 .carousel-card{
     font-family: Roboto Slab;
+    font-size: 15px;
 }
 
+.carousel-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
 
+.carousel-content h3{
+    font-size: 20px;
+}
 
+.carousel-content h4{
+    font-size: 18px;
+}
 
-.carousel-card img{
-    width: 50%;
+.card{
+    width: 80px;
 }

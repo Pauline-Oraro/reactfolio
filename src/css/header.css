@@ -17,12 +17,13 @@
 
 .logo{
     display: inline-block;
-    padding-top: 5px;
+    padding-top: 20px;
     margin-left: 8px;
 }
 
 .logo h1{
     color: black;
+    font-size: 20px;
 }
 
 .nav{
@@ -157,5 +158,6 @@
         font-size: 18px;
 
         padding: 10px;
+        margin-top: 5px;
     }
 }
