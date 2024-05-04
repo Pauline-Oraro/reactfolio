@@ -8,7 +8,7 @@
     justify-content: center;
     gap: 20px;
 
-    
+    background-color: #715B5B;
 }
 
 .contact-information{
@@ -43,7 +43,7 @@ form input, textarea{
     width: 100%;
     border: 2px solid black;
     padding: 10px;
-    box-shadow: 6px 6px  #3B0404;
+    box-shadow: 6px 6px black;
 }
 
 label{
@@ -55,7 +55,7 @@ label{
     padding: 10px;
     width: 50%;
     border: 2px solid black;
-    box-shadow: 6px 6px  #3B0404;
+    box-shadow: 6px 6px black;
 }
 
 .contact-location{
@@ -97,7 +97,7 @@ label{
 .social-images img{
     border: 2px solid black;
     padding: 8px;
-    box-shadow: 4px 4px  #3B0404;
+    box-shadow: 4px 4px black;
     width: 50px;
 }
 

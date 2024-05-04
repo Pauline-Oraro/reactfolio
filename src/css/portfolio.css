@@ -38,7 +38,7 @@
     border: 4px solid black;
     border-radius: 10px;
 
-    box-shadow: 6px 6px  #3B0404;
+    box-shadow: 6px 6px black;
 
 }
 
@@ -70,18 +70,19 @@
 .popup-button{
     display: flex;
     justify-content: center;
-    background-color: #3B0404;
-    color: white;
+    background-color:#ffffff;
+    color: black;
 
     font-family: Roboto Mono, monospace;
     font-size: 18px;
+    font-weight: bolder;
 
     padding: 10px;
 
     border: 2px solid black;
     border-radius: 10px;
 
-    box-shadow: 2px -4px black;
+    box-shadow: 6px 6px black;
     
     width: 30%;
 }

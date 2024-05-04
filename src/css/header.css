@@ -3,7 +3,7 @@
 
 
 .header{
-    background-color: #E4B7A0;
+    background-color: #ffffff;
 
     position: fixed;
     top: 0px;
@@ -23,7 +23,7 @@
 
 .logo h1{
     color: black;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .nav{
@@ -33,7 +33,7 @@
 
     position: fixed;
 
-    background-color: #E4B7A0;
+    background-color: white;
 
     overflow: hidden;
 
@@ -50,9 +50,8 @@
 
 .menu a:hover{
     text-decoration: underline;
-    text-decoration-color: #E98980;
+    text-decoration-color: black;
 
-    color: #E98980;
 }
 
 /*container for the hamburger menu*/
@@ -63,17 +62,17 @@
 }
 
 .hamb-line{
-    background-color: #ffffff;
+    background-color: black;
 
     display: block;
     height: 4px;
     position: relative;
-    top: -15px;
+    top: -28px;
     width: 34px;
 }
 
 .hamb-line::before, .hamb-line::after{
-    background-color: #ffffff;
+    background-color: black;
 
     content: "";
 
@@ -131,6 +130,7 @@
         float: right;
         width: fit-content;
         background: transparent;
+        padding-top: 20px;
     }
     .menu li{
         float: left;
@@ -150,14 +150,15 @@
         border: 2px solid black;
         border-radius: 10px;
 
-        box-shadow: 2px -4px black;
+        box-shadow: 6px 6px  black;
 
-        color: #ffffff;
-        background-color: #3B0404;
+        color: black;
+        background-color: white;
         font-family: Roboto Mono, monospace;
         font-size: 18px;
+        font-weight: bolder;
 
         padding: 10px;
-        margin-top: 5px;
+        margin-top: 2px;
     }
 }

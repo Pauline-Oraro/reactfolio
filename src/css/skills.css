@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono:ital@1&display=swap');
 
 .skills-container{
-    background-color: #ffffff;
+    background-color: #715B5B;
     
 
     width: 100%;
@@ -34,7 +34,7 @@
     
     width: 50%;
     border: 2px solid black;
-    box-shadow: 6px 6px  #3B0404;
+    box-shadow: 6px 6px black;
     padding: 8px;
     margin-bottom: 20px;
 }
@@ -71,7 +71,7 @@
 }
 
 .statement-section button{
-    background-color: #3B0404;
+    background-color: #ffffff;
     font-family: Roboto Mono, monospace;
     font-size: 18px;
 
@@ -80,11 +80,12 @@
     border: 2px solid black;
     border-radius: 10px;
 
-    box-shadow: 2px -4px black;
+    
 }
 
 .statement-section button a{
-    color: #ffffff;
+    color: black;
+    font-weight: bolder;
 }
 
 @media only screen and (max-width: 800px){
