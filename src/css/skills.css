@@ -18,13 +18,17 @@
 
 .card-container{
     padding: 15px;
+    width: 100%;
 
     
     display: flex;
     flex-direction: row;
+   
     justify-content: center;
+    align-items: center;
     
     gap: 20px;
+
 }
 
 .skills-card{
@@ -88,7 +92,7 @@
     font-weight: bolder;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 940px){
     .card-container{
         display: flex;
         flex-direction: column;
@@ -104,5 +108,14 @@
     }
     .statement-section button{
         width: 50%;
+    }
+    .skills-card{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .skills-card{
+        width: 70%;
     }
 }

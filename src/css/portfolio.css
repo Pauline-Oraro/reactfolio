@@ -92,7 +92,7 @@
 .popup-box{
     font-family: Roboto Slab;
 
-    background-color:bisque;
+    background-color: #715B5B;
     border: 2px solid black;
 }
 
@@ -157,9 +157,15 @@
         justify-content: center;
     }
     .portfolio-image img{
-        width: 100%;
+        width: 300px;
     }
     .popup-button{
-        width: 50%;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .portfolio-image img{
+        width: 200px;
     }
 }

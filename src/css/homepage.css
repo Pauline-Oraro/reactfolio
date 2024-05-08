@@ -251,7 +251,7 @@
         flex-direction: column;
     }
     .info-image img{
-        width: 120%;
+        width: 280px;
     }
 }
 
@@ -273,5 +273,16 @@
         align-items: center;
         margin: 20px auto;
         padding: 10px;
+    }
+    .welcome-text button{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .info-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

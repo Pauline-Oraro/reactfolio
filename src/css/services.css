@@ -28,6 +28,7 @@
     border: 2px solid black;
     box-shadow: 6px 6px black;
     width: 30%;
+    height: 250px;
     margin-bottom: 20px;
 }
 
@@ -49,5 +50,11 @@
     }
     .service-card{
         width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .service-card{
+        height: 100%;
     }
 }

@@ -490,10 +490,10 @@ function App() {
 
               <div className='social-images'>
                 
-                <a><img src='twitter.png' alt="X" /></a>
-                <a><img src='instagram.svg' alt="instagram" /></a>
-                <a><img src='linkedin.png' alt="linkedin" /></a>
-                <a><img src='pinterest.png' alt="pinterest" /></a>
+                <img src='twitter.png' alt="X" />
+                <img src='instagram.svg' alt="instagram" />
+                <img src='linkedin.png' alt="linkedin" />
+                <img src='pinterest.png' alt="pinterest" />
               </div>
             </div>
 

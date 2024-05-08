@@ -11,6 +11,8 @@
     font-size: 15px;
 }
 
+
+
 .carousel-content{
     display: flex;
     flex-direction: column;
@@ -26,6 +28,3 @@
     font-size: 18px;
 }
 
-.card{
-    width: 80px;
-}
